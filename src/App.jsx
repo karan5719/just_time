@@ -12,6 +12,7 @@ import EvidenceCards from "./components/EvidenceCards";
 import OverthinkingDepartment from "./components/OverthinkingDepartment";
 import ConversationSection from "./components/ConversationSection";
 import FinalNote from "./components/FinalNote";
+import BeforeYouGo from "./components/BeforeYouGo";
 import Ending from "./components/Ending";
 
 // The full stage order. Editing this array changes the flow of the site.
@@ -26,6 +27,7 @@ const STAGES = [
   "overthinking",
   "conversation",
   "finalNote",
+  "beforeYouGo",
   "ending",
 ];
 
@@ -98,7 +100,10 @@ export default function App() {
               <ConversationSection key="conversation" onContinue={() => goTo("finalNote")} />
             )}
             {stage === "finalNote" && (
-              <FinalNote key="finalNote" onDone={() => goTo("ending")} />
+              <FinalNote key="finalNote" onDone={() => goTo("beforeYouGo")} />
+            )}
+            {stage === "beforeYouGo" && (
+              <BeforeYouGo key="beforeYouGo" onDone={() => goTo("ending")} />
             )}
             {stage === "ending" && (
               <Ending key="ending" onReplay={() => goTo("name")} />
