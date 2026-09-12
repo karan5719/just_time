@@ -49,7 +49,7 @@ export default function MemoryGallery({ onContinue }) {
                 <img
                   src={photo.src}
                   alt=""
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-contain"
                   onError={(e) => {
                     e.currentTarget.style.display = "none";
                   }}
@@ -108,7 +108,7 @@ export default function MemoryGallery({ onContinue }) {
                 <img
                   src={openPhoto.src}
                   alt=""
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-contain"
                   onError={(e) => {
                     e.currentTarget.style.display = "none";
                   }}
