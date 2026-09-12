@@ -47,8 +47,8 @@ export const EVIDENCE_CARDS = [
   {
     id: "ev-002",
     label: "Evidence #002",
-    title: "Still can't believe I survived your attitude. 💀",
-    detail: "",
+    title: "I can't believe you actually survived my attitude. 💀",
+    detail: "Honestly… the patience award goes to you. 🏆😂",
   },
   {
     id: "ev-003",
