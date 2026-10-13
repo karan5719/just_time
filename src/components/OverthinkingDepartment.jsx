@@ -2,12 +2,22 @@ import { motion } from "framer-motion";
 import Screen from "./Screen";
 import RevealText from "./RevealText";
 import { PrimaryButton } from "./ui";
-import { OVERTHINKING_CASES } from "../config/content";
+import { FINAL_MESSAGE, OVERTHINKING_CASES } from "../config/content";
 
 export default function OverthinkingDepartment({ onContinue }) {
   return (
     <Screen scrollable particleDensity={16} className="items-start">
       <div className="mx-auto flex max-w-xl flex-col items-center py-10 text-center">
+        <motion.p
+          initial={{ opacity: 0, y: 14 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="mb-6 max-w-lg text-left text-[15px] leading-relaxed sm:text-base"
+          style={{ color: "var(--ink-soft)", whiteSpace: "pre-line" }}
+        >
+          {FINAL_MESSAGE}
+        </motion.p>
+
         <motion.h1
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}

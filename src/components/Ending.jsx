@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import Screen from "./Screen";
 import { GhostButton } from "./ui";
-import { FINAL_MESSAGE } from "../config/content";
 
 export default function Ending({ onReplay }) {
   return (
@@ -35,16 +34,6 @@ export default function Ending({ onReplay }) {
           <strong>I hope life is kind to you.</strong>
           <br />
           <strong>Always. 🤍</strong>
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 14 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.7 }}
-          className="mt-8 max-w-sm text-sm leading-relaxed"
-          style={{ color: "var(--ink-muted)" }}
-        >
-          {FINAL_MESSAGE}
         </motion.p>
 
         <motion.p
