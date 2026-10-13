@@ -72,6 +72,33 @@ export const TIMING = {
   heartFormDuration: 3200,
 };
 
+// Final closing note that appears at the very end of the experience.
+export const FINAL_MESSAGE = `Ek baat kehni thi tumse…
+
+Aisa bilkul nahi hai ki maine tumhe text karna band kar diya toh tumhe yaad karna bhi chhod diya. Yaad toh aaj bhi karta hoon, bas ab message nahi karta.
+
+Pata nahi kyun, par kabhi-kabhi aisa lagta hai ki tum mujhse baat toh karti ho, lekin bas formality ke liye. Shayad tumhara mujhse baat karne ka mann nahi hota, aur main nahi chahta ki tum sirf meri wajah se baat karo. Isliye maine text karna band kar diya. Main tumhe kabhi aisi situation mein nahi rakhna chahta jahan tumhe mujhse baat karna ek responsibility lage.
+
+Sometimes I feel like we were never on the same page. When you wanted me, I wasn't in that mindset, and when I wanted you, you weren't in that same place anymore. I know, it's life. Sometimes feelings and timing don't match, and maybe that's just how things are supposed to be. Lekin kabhi-kabhi sochta hoon ki agar hum dono ek hi waqt par ek jaisa mehsoos karte, toh shayad aaj cheezein kuch aur hoti.
+
+Honestly, losing you is something I've never really been able to accept. Kabhi-kabhi sochta hoon ki maine aisi kya galti ki thi, ya mujhse aisa kya ho gaya jiska ehsaas mujhe aaj itni takleef de raha hai. Pata nahi kyun, par jab bhi yeh sab sochta hoon, toh lagta hai jaise shayad yeh mere kisi karma ka result hai. Shayad main bas khud hi in sawaalon mein uljha rehta hoon, kyunki mujhe aaj tak samajh nahi aaya ki humare beech sab kuch aisa kyun ho gaya.
+
+Mujhe lagta hai shayad main tumhara type ka ladka nahi hoon. Main un logon mein se nahi hoon jo aaj kisi se pyaar karein aur kal kisi aur ke saath apna dil laga lein. I'm a one-woman kind of guy. Jab main kisi se genuinely committed hota hoon, toh mere liye us insaan se emotionally alag hona aur kisi aur ke baare mein sochna aasaan nahi hota. Shayad meri yahi baat galat bhi ho, shayad mujhe bhi waqt ke saath aage badhna seekhna chahiye. Main jaanta hoon ki mujhe move on karna chahiye, aur shayad ek din kar bhi jaunga, lekin sach kahun toh main abhi tak poori tarah move on koshish nahi kar paaya hoon.
+
+Maine abhi tak apna Instagram password bhi change nahi kiya, jo maine tumhare saath rakha tha. Pata nahi kyun, par use change karne ka bhi mann nahi hota. Shayad kyunki usse kuch yaadein judi hui hain, aur main abhi tak un yaadon se poori tarah alag nahi ho paaya hoon. Kabhi-kabhi khud ko samjhata hoon ki ab aage badhna chahiye, lekin dil hai ki abhi bhi wahi atka hua hai.
+
+Par sach kahun, toh main tumhe khona nahi chahta. Shayad isi wajah se main baar-baar tum tak pahunchne ki koshish karta hoon, kyunki mere liye tumhe apni zindagi se alag kar dena utna aasaan nahi hai. Main nahi jaanta ki hum kabhi ek hi page par aa bhi paayenge ya nahi, ya kabhi humare beech cheezein pehle jaisi ho bhi paayengi ya nahi. Bas itna jaanta hoon ki meri feelings tumhare liye sachchi hain, aur jo kuch bhi maine mehsoos kiya hai, woh mere liye kabhi jhooth nahi tha.
+
+Main tumse kuch expect nahi kar raha, na hi tumhe kisi cheez ke liye force karna chahta hoon. Bas kuch baatein thi jo kaafi waqt se apne andar rakhi hui thi, aur aaj tumse kehne ka mann kiya. Shayad tumhare liye yeh sab ab utna matter nahi karta, aur main us baat ko bhi samajhne ki koshish kar raha hoon.
+
+Bas ek baat hai—main tumhe paane ki koshish mein tumhari marzi ko kabhi nazarandaaz nahi karna chahta. Main tumhe chahta hoon, lekin main yeh bhi chahta hoon ki agar tum kabhi meri zindagi ka hissa bano, toh apni marzi se bano, kisi majboori ya pressure mein nahi.
+
+Pata nahi tum meri in baaton ko kaise logi, ya inhe padhne ke baad tumhare mann mein kya aayega. Shayad tumhare paas kehne ke liye kuch ho, shayad kuch bhi na ho. Main tumse kisi jawab ki umeed rakhkar yeh sab nahi keh raha. Bas chahta tha ki tum ek baar jaan sako ki tumhare liye mere dil mein kya hai.
+
+Main nahi jaanta ki waqt mujhe tumhari yaadon se kab aage le jaayega, ya main kab khud ko itna samjha paaunga ki sab kuch pehle jaisa nahi ho sakta. Lekin aaj bhi tumhari jagah mere dil mein wahi hai.
+
+Aur shayad meri mohabbat ka sabse mushkil hissa bhi yahi hai—main tumhe apni zindagi mein chahta hoon, lekin tumhari khushi ke liye tumhari marzi ko bhi utni hi ahmiyat dena chahta hoon. ❤️`;
+
 export const CONVERSATION = [
   { from: "me", text: "Tum mujhe bhooli toh nahi ho…\npar yaad bhi nahi karti." },
   {
